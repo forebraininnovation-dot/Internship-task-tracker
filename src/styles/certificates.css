@@ -1,0 +1,32 @@
+.cert-box {
+  display: flex;
+  gap: 12px;
+  margin: 25px 0;
+}
+
+.cert-box input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+.cert-box button {
+  padding: 10px 18px;
+}
+
+.cert-result {
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.cert-result.Valid {
+  border-left: 5px solid #22c55e;
+}
+
+.cert-result.Invalid {
+  border-left: 5px solid #ef4444;
+}

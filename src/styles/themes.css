@@ -1,0 +1,51 @@
+/* LIGHT MODE */
+body[data-theme="light"] {
+  --bg: #f4f6f8;
+  --card: #ffffff;
+  --text: #111827;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --primary: #6366f1;
+}
+
+/* DARK MODE */
+body[data-theme="dark"] {
+  --bg: #020617;
+  --card: #0f172a;
+  --text: #f9fafb;
+  --muted: #9ca3af;
+  --border: #1f2937;
+  --primary: #818cf8;
+}
+
+/* GLOBAL APPLICATION */
+body {
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* COMMON ELEMENTS */
+.page,
+.dashboard,
+.dashboard-section,
+.summary-card,
+.stat-card,
+.chart-card,
+.task-card,
+.module-card,
+.notification-card,
+.profile-card,
+.kanban-column,
+.cert-result {
+  background: var(--card);
+  color: var(--text);
+}
+
+p,
+span,
+li,
+label,
+small {
+  color: var(--muted);
+}

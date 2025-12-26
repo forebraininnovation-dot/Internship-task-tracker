@@ -1,0 +1,33 @@
+/* FADE IN */
+.fade-in {
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* HOVER LIFT */
+.summary-card,
+.task-card,
+.chart-card,
+.module-card,
+.notification-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.summary-card:hover,
+.task-card:hover,
+.chart-card:hover,
+.module-card:hover,
+.notification-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+}

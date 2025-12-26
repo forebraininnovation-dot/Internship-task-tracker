@@ -1,0 +1,17 @@
+.notification-card {
+    background: var(--card);
+  color: var(--text);
+  border-left: 4px solid var(--primary);
+  padding: 18px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+
+}
+
+.notification-card.read {
+  opacity: 0.7;
+}
+.notification-card p {
+  color: var(--muted);
+}

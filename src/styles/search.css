@@ -1,0 +1,78 @@
+.search-input {
+  padding: 10px;
+  width: 250px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+.task-table {
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+.task-table th,
+.task-table td {
+  padding: 14px;
+  text-align: left;
+}
+
+.task-table thead {
+  background: #f1f5f9;
+}
+.search-input {
+  padding: 10px 14px;
+  width: 260px;
+  border-radius: 8px;
+  background: var(--card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  margin-bottom: 20px;
+}
+
+.task-table {
+  width: 100%;
+   background: var(--card);
+  color: var(--text);
+
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.task-table th,
+.task-table td {
+  padding: 14px;
+color: var(--text);
+ color: var(--muted)
+}
+
+.task-table tr:hover {
+  background: #f8fafc;
+}
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.badge.todo {
+  background: #ffedd5;
+  color: #9a3412;
+}
+
+.badge.progress {
+  background: #e0e7ff;
+  color: #3730a3;
+}
+
+.badge.done {
+  background: #dcfce7;
+  color: #166534;
+}
+

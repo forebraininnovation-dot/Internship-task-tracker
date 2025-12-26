@@ -1,13 +1,17 @@
+@import "./styles/common.css";
+@import "./styles/certificates.css";
+@import "./styles/analytics.css";
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Segoe UI", system-ui, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app-layout {
+  display: flex;
+  min-height: 100vh;
 }
+
+.main-content {
+  flex: 1;
+}
+
